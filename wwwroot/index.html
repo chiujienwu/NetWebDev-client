@@ -11,23 +11,28 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Northwind</a>
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Products
-                </a>
-                <div class="dropdown-menu" aria-labelledby="productDropdown">
-                    <a class="dropdown-item" href="#">Browse Categories</a>
-                    <a class="dropdown-item" href="#">Product Search</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Current Discounts</a>
-                </div>
-            </li>
-        </ul>
-        <form class="form-inline ml-auto">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search Products" aria-label="Search">
-            <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="productDropdown">
+                        <a class="dropdown-item" href="#">Browse Categories</a>
+                        <a class="dropdown-item" href="#">Product Search</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Current Discounts</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Products" aria-label="Search">
+                <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
     </nav>
     <div class="container">
         Hello World!
