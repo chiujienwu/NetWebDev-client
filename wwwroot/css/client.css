@@ -10,3 +10,9 @@
 .jumbotron, .discounts {
     border: 1px solid #cecece;
 }
+
+.toast {
+    position: absolute;
+    top: 65px;
+    right: 10px;
+}
